@@ -1,5 +1,11 @@
+
+body {
+  margin-top: 35px;
+  background-color: rgb(189, 203, 209);
+}
+
 td {
-    border:  2px solid #333;
+    border:  5px solid #333;
     height:  100px;
     width:  100px;
     text-align:  center;
@@ -15,6 +21,7 @@ td {
     left: 50%;
     margin-left: -155px;
     top: 50px;
+    margin-top: 80px;
   }
   
   table tr:first-child td {
@@ -36,7 +43,7 @@ td {
     display: none;
     width:  200px;
     top: 120px;
-    background-color: rgba(205, 133, 63, 0.8);
+    background-color: rgba(193, 233, 14, 0.568);
     position: absolute;
     left: 50%;
     margin-left: -100px;
@@ -44,15 +51,16 @@ td {
     padding-bottom: 50px;
     text-align: center;
     border-radius: 5px;
-    color: white;
+    color: black;
     font-size: 2em; 
+    margin-top: 97px;
   }
   
   .selectSym{
     display: none;
     width: 220px;
     top: 110px;
-    background-color: rgba(205, 133, 63, 0.8);
+    background-color:  rgba(63, 205, 75, 0.8);
     position: absolute;
     left: 50%;
     margin-left: -110px;
@@ -60,8 +68,9 @@ td {
     padding-bottom: 50px;
     text-align: center;
     border-radius: 5px;
-    color: yellow;
+    color: rgb(255, 17, 0);
     font-size: 2em; 
+    margin-top: 55px;
   }
   
   .selectSym button{
@@ -77,4 +86,19 @@ td {
     margin-left: 10px;
   }
   
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    /* border-radius: 10%; */
+  }
   
